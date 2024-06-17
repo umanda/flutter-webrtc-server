@@ -41,7 +41,6 @@ go run cmd/server/main.go
 
 ```bash
 docker build -t flutter-webrtc-server .
-go run cmd/server/main.go
 docker run -d --name flutter-webrtc-server-container -p 8086:8086 flutter-webrtc-server
 ```
 
